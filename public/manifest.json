@@ -1,0 +1,26 @@
+{
+  "short_name": "Sailor",
+  "name": "Sailor",
+  "description": "Navigate your sales journey",
+  "icons": [
+    {
+      "src": "sailor.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "sailor192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "sailor512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#FFD369",
+  "background_color": "#222831"
+}
