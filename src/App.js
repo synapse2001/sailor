@@ -16,7 +16,10 @@ function App() {
   const fetchUserRole = async (user) => {
     const userRole = await firebase.getUserRole(user.uid);
     setCurrentUserRole(userRole);
-    setLoading(false);
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+    // setLoading(false);
     console.log(userRole);
   };
 

@@ -1,9 +1,8 @@
 [
     {
-      "origin": ["https://smj-impex-sales.vercel.app", "http://localhost:3000"],
+      "origin": ["https://smj-impex-sales.vercel.app", "http://localhost:3000","https://sailor-sales.vercel.app/"],
       "method": ["GET"],
       "maxAgeSeconds": 3600
-    //   gsutil cors set "C:\Personal\React Projects\smj-impex-sales\src\assets\utils\cors.json" gs://smj-impex-sales.appspot.com
     }
 ]
-
+//gsutil cors set "C:\Personal\React Projects\sailor\src\assets\utils\cors.json"
