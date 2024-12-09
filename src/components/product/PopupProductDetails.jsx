@@ -13,8 +13,8 @@ import {
   CircularProgress,
 } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-import { useFirebase } from '../context/Firebase';
-import { useImageCache } from '../context/ImageCacheContext';
+import { useFirebase } from '../../context/Firebase';
+import { useImageCache } from '../../context/ImageCacheContext';
 
 const ProductDetailsPopup = ({ open, onClose, productDetails }) => {
   const [detailedProducts, setDetailedProducts] = useState([]);

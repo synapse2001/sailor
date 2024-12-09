@@ -4,7 +4,7 @@ import { Box, Button, Chip, Typography, TextField, MenuItem, FormControl,Select,
 import { useTheme } from '@mui/material/styles';
 import { useFirebase } from '../../../context/Firebase';
 import { nanoid } from 'nanoid';
-import PopupProductDetails from './PopupAlterOrder';
+import PopupProductDetails from './../../product/PopupProductDetails';
 import PopupAlterOrder from './PopupAlterOrder';
 
 // Columns for the DataGrid, including the new fields
