@@ -249,14 +249,14 @@ const ProductPage = ({ product, onBack ,userData}) => {
               Product Details
             </Typography>
             <Typography variant="body1" color="text.secondary" sx={{ my: 1 }}>
-              Brand: {product.brand}
+              Manufacturer: {product.brand}
             </Typography>
             <Typography variant="body1" color="text.secondary" sx={{ my: 1 }}>
-              Part Number: {maskPartNumber(product.partNo)}
+              Item Number: {maskPartNumber(product.partNo)}
             </Typography>
-            <Typography variant="body1" color="text.secondary" sx={{ my: 1 }}>
+            {/* <Typography variant="body1" color="text.secondary" sx={{ my: 1 }}>
               HSN Code: {product.HSNCode}
-            </Typography>
+            </Typography> */}
             <Typography variant="body1" color="text.secondary" sx={{ my: 1 }}>
               Description: {product.partDesc}
             </Typography>

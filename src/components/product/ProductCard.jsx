@@ -126,18 +126,21 @@ const ProductCard = ({ product, handleAddToCart,userData, isProductInCart, getPr
             {product.name}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Part Number: {maskPartNumber(product.partNo)}
+            Item Number: {maskPartNumber(product.partNo)}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Brand: {product.brand}
+            Manufacturer: {product.brand}
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Price: {product.priceRange}
           </Typography>
+          <Typography variant="body" color="text.secondary">
+            {product.partDesc}
+          </Typography>
         </CardContent>
       </Box>
       <CardContent>
-        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mt: 2 }}>
+        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <IconButton onClick={(e) => { e.stopPropagation(); handleLocalQuantityChange(-1); }} color='primary' sx={{ backgroundColor: 'primary.main', borderRadius: '50%' }}>
             <RemoveIcon style={{ color: 'black' }} />
           </IconButton>

@@ -14,12 +14,12 @@ import { useImageCache } from '../../../context/ImageCacheContext';
 const ProductManagement = () => {
   const columns = [
     { field: 'id', headerName: 'Product ID', width: 150 },
-    { field: 'partNo', headerName: 'Part No', width: 150, editable: true },
+    { field: 'partNo', headerName: 'Item No', width: 150, editable: true },
     { field: 'name', headerName: 'Name', width: 200, editable: true },
     { field: 'priceRange', headerName: 'Price Range', width: 150, editable: true },
     // { field: 'brand', headerName: 'Brand', width: 150, editable: true },
     { field: 'ogBrandName', headerName: 'Brand', width: 150, editable: true },
-    { field: 'partDesc', headerName: 'Model', width: 200, editable: true },
+    { field: 'partDesc', headerName: 'Item Description', width: 200, editable: true },
     { field: 'aliasName', headerName: 'Alias Name', width: 200, editable: true },
     { field: 'MRP', headerName: 'MRP', width: 150, editable: true },
     { field: 'HSNCode', headerName: 'HSN Code', width: 150, editable: true },

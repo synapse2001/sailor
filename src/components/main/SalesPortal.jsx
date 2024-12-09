@@ -30,6 +30,15 @@ const SalesPortal = () => {
     getProductQuantityInCart
   } = useOrderContext();
 
+  const menuProps = {
+    PaperProps: {
+      style: {
+        backgroundColor: '#333',
+        color: 'primary',
+      },
+    },
+  };
+
   const fetchUsers = async (uid) => {
     try {
       const usersData = await firebase.fetchData('users/' + uid);
@@ -137,9 +146,10 @@ const SalesPortal = () => {
                 label="Search By"
                 // style={{color: 'primary'}}
                 onChange={(e) => setSearchField(e.target.value)}
+                MenuProps={menuProps}
               >
                 <MenuItem value="name">Name</MenuItem>
-                <MenuItem value="partNo">Part No</MenuItem>
+                <MenuItem value="partNo">Item no</MenuItem>
                 <MenuItem value="brand">Brand</MenuItem>
               </Select>
             </FormControl>
@@ -166,7 +176,7 @@ const SalesPortal = () => {
       ) : (
         <>
           {productList ? (
-            <Box sx={{ padding: 4 }}>
+            <Box sx={{ padding: 4,marginBottom:5 }}>
               {/* <Typography variant="h5" color="primary" gutterBottom>
                 Product List
               </Typography> */}

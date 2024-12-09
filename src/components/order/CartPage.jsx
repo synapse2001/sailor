@@ -105,7 +105,9 @@ const CartPage = ({ userName, orderpage, iscartopen }) => {
   return (
     <>
       {selectedProduct ? (
+        <Box sx ={{my:5}}>
         <ProductPage product={selectedProduct} onBack={() => setSelectedProduct(null)} userData={{ role: currentUserRole }} />
+        </Box>
       ) : (
         <DialogContent>
           {cartItems.length > 0 ? (

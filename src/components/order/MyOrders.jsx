@@ -246,7 +246,7 @@ const MyOrders = ({ user, orderclose, isoderpageopen }) => {
                                 </Grid>
                                 <Grid item xs={8}>
                                   <Typography component="div" variant="h6" color={theme.palette.primary.main} >{product.name}</Typography>
-                                  <Box component="div" variant="body2">Part No: {product.partNo}</Box>
+                                  <Box component="div" variant="body2">Item No: {product.partNo}</Box>
                                   <Box component="div" variant="body2">
                                     Quantity: {order.orderWorkList[order.orderId][index].quantity}
                                   </Box>
