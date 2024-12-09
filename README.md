@@ -43,7 +43,7 @@ Follow these steps to set up and run the Sailor app locally:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/sailor.git
+   git clone https://github.com/synapse/sailor.git
    cd sailor
    ```
 
