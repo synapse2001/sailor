@@ -18,7 +18,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import ProductPage from '../product/ProductPage';
 import { useOrderContext } from '../../context/OrderContext';
 import { useFirebase } from '../../context/Firebase';
-import carImage from '../../assets/images/running_car.gif';
+import emptyCartImage from '../../assets/images/empty-cart.png';
 import { useAuth } from '../../controllers/userState';
 import PopupAdditionalDetails from './PopupAdditionalDetails';
 import { useImageCache } from '../../context/ImageCacheContext';
@@ -159,8 +159,8 @@ const CartPage = ({ userName, orderpage, iscartopen }) => {
           ) : (
             <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' ,mt: 20}}>
               <Box alignContent="center" maxWidth="200px" sx={{ textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                <img src={carImage} alt="Empty Cart" style={{ width: '100%', height: 'auto' }} />
-                <Typography variant="body1" align="center" sx={{ mt: 2 }}>Kudos on keeping your car neat 😉</Typography>
+                <img src={emptyCartImage} alt="Empty Cart" style={{ width: '140%', height: 'auto' }} />
+                <Typography variant="body1" align="center" sx={{ mt: 2 }}>I will let you Cook 😉</Typography>
               </Box>
             </Box>
           )}

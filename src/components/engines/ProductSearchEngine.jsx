@@ -25,6 +25,9 @@ const useProductSearchEngine = () => {
         });
         const result = fuse.search(query);
         setProductList(result.map(({ item }) => item));
+        if(query === ''){
+          setProductList(productsArray);
+        }
       } else {
         const queryLower = query.toLowerCase();
 
