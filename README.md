@@ -10,6 +10,20 @@ This guide covers the steps to set up, configure Firebase, build, deploy via Ver
 
 ---
 ## ⚒️ **Sales is All you Need**
+**Admin**  
+- Email:
+-     admin.demo@sailor.com      
+- Password:
+-     admin@sailor
+  
+**User**  
+- Email:
+-     user.demo@sailor.com      
+- Password:
+-     user@sailor
+
+**User**  
+- Email: (Please provide the user's email if needed)
 
 ### User Perspective Demo
 https://github.com/user-attachments/assets/ea87bd93-2240-4f6e-8f84-87f4a1dcbeef
