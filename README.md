@@ -5,7 +5,7 @@
   <img src="src/assets/images/sailor.png" alt="Sailor Logo" width="100" height="100">
 </div>
 
-Sailor is a **React** and **Firebase-based** application designed to streamline your e-commerce sales portal. Its a friction less gateway to online sales/Inventory Managemt and more.
+Sailor is a **React** and **Firebase-based** application designed to streamline your e-commerce sales portal. Its a friction less gateway to online sales/Inventory Management and more.
 This guide covers the steps to set up, configure Firebase, build, deploy via Vercel, and create environment variables for a smooth start.
 
 ---
@@ -22,8 +22,6 @@ This guide covers the steps to set up, configure Firebase, build, deploy via Ver
 - Password:
 -     user@sailor
 
-**User**  
-- Email: (Please provide the user's email if needed)
 
 ### User Perspective Demo
 https://github.com/user-attachments/assets/ea87bd93-2240-4f6e-8f84-87f4a1dcbeef
