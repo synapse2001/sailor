@@ -8,6 +8,10 @@
 Sailor is a **React** and **Firebase-based** application designed to streamline your e-commerce sales portal. This guide covers the steps to set up, configure Firebase, build, deploy via Vercel, and create environment variables for a smooth start.
 
 ---
+## ⚒️ **Sales is All you Need**
+
+https://github.com/user-attachments/assets/6c4f967e-f806-4423-9d03-72fb343be1dc
+
 
 ## 🚀 **Setting Up Sailor**
 
